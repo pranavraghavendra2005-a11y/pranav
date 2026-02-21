@@ -1,0 +1,15 @@
+package super_keyword;
+
+public class car extends vehicle {
+	int x=4;
+	void show() {
+		System.out.println(x);
+		System.out.println(super.x);
+	}
+	public static void main(String[] args) {
+		car c = new car();
+		c.show();
+	}
+	
+
+}
