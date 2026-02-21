@@ -1,0 +1,15 @@
+package super_keyword;
+
+public class SBI extends bank {
+	public void interest(double rate,int year) {
+		double totalinterest =(1000*rate*year)/100;
+		System.out.println("total interest:"+totalinterest);
+	}
+	public static void main(String[] args) {
+		SBI s = new SBI();
+		s.interest();
+		s.interest(2);
+		s.interest(2,5);
+	}
+
+}
