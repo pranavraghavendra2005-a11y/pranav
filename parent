@@ -1,0 +1,9 @@
+package super_keyword;
+
+public class parent {
+	parent() {
+		System.out.println("parent");
+	}
+
+}
+
