@@ -1,0 +1,14 @@
+package super_keyword;
+
+
+	public class child1 extends parent {
+		child1() {
+			super();
+			System.out.println("child1");
+		}
+		public static void main(String[] args) {
+			child1 ob=new child1();
+		}
+	}
+
+
