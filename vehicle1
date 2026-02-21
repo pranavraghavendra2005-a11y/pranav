@@ -1,0 +1,12 @@
+package super_keyword;
+
+public class vehicle1 {
+	void speed()  {
+		System.out.println("vehicles have different speed");
+		
+	}
+	void speed(int maxspeed) {
+		System.out.println("maximumspeed:"+maxspeed+"mph");
+	}
+
+}
