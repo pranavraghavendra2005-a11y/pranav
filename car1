@@ -1,0 +1,18 @@
+package super_keyword;
+
+public class car1 extends vehicle1 {
+	void speed(String mode) {
+		System.out.println("driving mode:"+mode);
+	}
+
+		public static void main(String[] args) {
+			car1 mycar1 = new car1();
+			mycar1.speed();
+			mycar1.speed(120);
+			mycar1.speed("sports");
+		}
+
+	}
+
+
+
