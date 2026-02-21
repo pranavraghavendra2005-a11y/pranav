@@ -1,0 +1,9 @@
+package day;
+
+public class dog extends Animal {
+	void dog() {
+		System.out.println("dog barks");
+	}
+	
+
+}
