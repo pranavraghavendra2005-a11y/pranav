@@ -1,0 +1,11 @@
+package day3;
+
+public class main {
+	public static void main(String[] args) {
+		cat c = new cat();
+		c.print();
+		c.sound();
+		
+	}
+
+}
