@@ -1,0 +1,11 @@
+package super_keyword;
+
+public class bank {
+	public void interest() {
+		
+	}
+	public void interest(double rate) {
+		System.out.println("interest rate:"+rate+"%");
+	}
+
+}
